@@ -4,6 +4,9 @@ By: Charles Norton & o3-mini-high
 
 February 5th, 2025
 
+**Abstract:**  
+We present closed‐form generating functions for two fundamental invariants of full binary trees—the Colless index and the total cophenetic index—which are central to phylogenetics, combinatorial analysis, and computer science. Although both indices have been traditionally characterized by recursive relations or asymptotic approximations, explicit closed–form expressions have remained elusive. By exploiting the intrinsic recursive structure of full binary trees, we translate the recurrences governing these invariants into generating function equations. During this process, we identify systematic discrepancies between a natural candidate generating function and the actual combinatorial recurrence for the total cophenetic index. This discrepancy is resolved through an innovative correction mechanism that normalizes the error using the generating function for the Catalan numbers. The resulting closed–form expressions not only reproduce the exact coefficients as verified through numerical experiments but also facilitate rigorous asymptotic analysis, revealing that the average Colless index grows as \( n^{3/2} \) while the average total cophenetic index scales as \( n^2 \). Our results bridge a longstanding gap in the literature, providing both theoretical insight and practical tools for efficient coefficient extraction and further analysis of tree invariants.
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Historical Background and Motivation](#historical-background-and-motivation)
